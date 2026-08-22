@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+.container{
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.buttons button{
+    padding: 5px 15px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttons .qoshish{
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.buttons .qoshish:hover{
+    background-color: #467e49;
+}
+
+.buttons .ayrish{
+    background-color: #f44336;
+}
+
+.buttons .ayrish:hover{
+    background-color: #7f2922;
+}
